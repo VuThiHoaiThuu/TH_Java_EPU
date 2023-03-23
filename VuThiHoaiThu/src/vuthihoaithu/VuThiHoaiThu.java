@@ -182,7 +182,7 @@ public class VuThiHoaiThu {
         Nhap(arr, n, s);
         
         System.out.print("Cac gia tri vua nhap: " );
-        Xuat(arr, n);
+        Xuat(arr, n); 
         
         System.out.print("\nMang co " + SoChan(arr, n) + " so chan");
         
