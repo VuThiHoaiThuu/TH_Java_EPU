@@ -64,12 +64,12 @@ public class NhanVien {
     }
     
     public static void XuatTieuDe(){
-        System.out.println("MaNV \tSoSp \tLuong\tTong Ket" );
+        System.out.println("MaNV \t\t\tSoSp\t\t\tLuong\t\t\tTong Ket" );
     }
     
     @Override
     public String toString() {
-        return maNV +"\t" + soSP + "\t" + getLuong() + "\t" + getTongKet();
+        return maNV +"\t\t\t" + soSP + "\t\t\t" + getLuong() + "\t\t\t" + getTongKet();
     }
     
     public void Nhap(){

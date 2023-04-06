@@ -50,8 +50,8 @@ public class VuThiHoaiThu_TH02 {
 
         //Bai tap 4
         System.out.println("Bai tap 4: ");
-        Circle circle = new Circle(6);
-        Rectangle rectangle = new Rectangle(4, 5);
+        Geometric circle = new Circle(6);
+        Geometric rectangle = new Rectangle(7, 5);
         if(circle.getArea() > rectangle.getArea()){
             System.out.println("Area of circle > Area of rectangle");
         }

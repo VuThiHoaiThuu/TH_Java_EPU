@@ -103,7 +103,6 @@ class Rectangle extends Geometric{
     }
     
     
-
     @Override
     public double getArea() {
         return (this.height + this.width) * 2;
